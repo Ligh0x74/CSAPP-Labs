@@ -1,0 +1,10 @@
+gdb -tui bomb
+break main
+break *ADDRESS
+next
+layout asm
+stepi
+info r rsp
+x/FMT ADDRESS
+finish
+set $rip=ADDRESS
