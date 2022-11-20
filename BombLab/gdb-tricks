@@ -1,6 +1,7 @@
 gdb -tui bomb
 break main
 break *ADDRESS
+continue
 next
 layout asm
 stepi
@@ -8,3 +9,4 @@ info r rsp
 x/FMT ADDRESS
 finish
 set $rip=ADDRESS
+set *(long*)ADDRESS=VALUE
